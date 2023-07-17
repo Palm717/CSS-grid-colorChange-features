@@ -1,0 +1,21 @@
+{
+  "name": "cssgrid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "*" 
+  },
+  "scripts": {
+    "client": "cd frontend && npm start",
+    "server": "cd backend && npm start",
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
